@@ -34,13 +34,13 @@ $ scrapy crwal zhihu -o filename.json
 
 #More Detail
 
-[Python爬虫(一)](http://www.jianshu.com/p/f76bd2164856)
-[Python爬虫(二)](http://www.jianshu.com/p/c3dbf8294c33)
-[Python爬虫(三)](http://www.jianshu.com/p/e062b3dd110c)
-[Python爬虫(四)](http://www.jianshu.com/p/86b8e78c418a)
-[Python爬虫(五)](http://www.jianshu.com/p/544d406e0875)
-[Python爬虫(六)](http://www.jianshu.com/p/078ad2067419)
-[Python爬虫(七)](http://www.jianshu.com/p/b7f41df6202d)
+- [Python爬虫(一)](http://www.jianshu.com/p/f76bd2164856)
+- [Python爬虫(二)](http://www.jianshu.com/p/c3dbf8294c33)
+- [Python爬虫(三)](http://www.jianshu.com/p/e062b3dd110c)
+- [Python爬虫(四)](http://www.jianshu.com/p/86b8e78c418a)
+- [Python爬虫(五)](http://www.jianshu.com/p/544d406e0875)
+- [Python爬虫(六)](http://www.jianshu.com/p/078ad2067419)
+- [Python爬虫(七)](http://www.jianshu.com/p/b7f41df6202d)
 
 
 #License
