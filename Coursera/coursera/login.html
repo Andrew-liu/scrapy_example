@@ -1,0 +1,65 @@
+<!DOCTYPE html><html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org"><head><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta charset="utf-8"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Coursera.org</title><link href="https://d1rlkby5e91r2j.cloudfront.net/eaabd9ef57c18de68233b569d1815bf2d96514e9/css/home.css" rel="stylesheet" type="text/css"><link href="https://d1rlkby5e91r2j.cloudfront.net/eaabd9ef57c18de68233b569d1815bf2d96514e9/pages/auth/css/auth.css" rel="stylesheet" type="text/css"><link href="https://d1rlkby5e91r2j.cloudfront.net/eaabd9ef57c18de68233b569d1815bf2d96514e9/pages/auth/css/auth_responsive.css" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body><div id="fb-root"></div><div id="origami"><div style="position:absolute;top:0px;left:0px;width:100%;height:100%;background:#f5f5f5;padding-top:5%;"><div id="coursera-loading-nojs" style="text-align:center; margin-bottom:10px;display:none;">Please use a <a href="http://help.coursera.org/customer/portal/articles/1164387-do-i-need-any-special-software-or-computer-equipment-">modern browser </a> with JavaScript enabled to use Coursera.</div><div><span id="coursera-loading-js" style="display: none; padding-left:45%">loading &nbsp;&nbsp;<img src="https://dw0ugk4msqulk.cloudfront.net/images/icons/loading.gif"></span></div><noscript><div style="text-align:center; margin-bottom:10px;">Please use a <a href="http://help.coursera.org/customer/portal/articles/1164387-do-i-need-any-special-software-or-computer-equipment-">modern browser </a> with JavaScript enabled to use Coursera.</div></noscript></div></div><!--[if gte IE 8]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 7]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';
+window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+    
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});
+  </script><script src="https://d1rlkby5e91r2j.cloudfront.net/eaabd9ef57c18de68233b569d1815bf2d96514e9/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script type="text/javascript" src="https://d1rlkby5e91r2j.cloudfront.net/javascripts/core/require.js"></script><script type="text/javascript" data-baseurl="https://d1rlkby5e91r2j.cloudfront.net/fc9c256c220ed31ef1f12faf6749908657b34693" data-version="fc9c256c220ed31ef1f12faf6749908657b34693" data-timestamp='1412624590336' data-debug='0' data-locale="en" id="_require">if(document.getElementById("coursera-loading-js").style.display == 'block') {
+  (function(el) {
+     // prevent throw
+     require.onError = function(err) {
+       window._204 = window._204 || [];
+       window._204.push({key: 'requireErr', value: err});
+     };
+     
+     define("pages/auth/authConfig",
+         function() {
+             return {"coursera_url": "https://www.coursera.org/",
+                     "environment": "production"};
+     }
+     );
+     
+     require.config({
+       enforceDefine: false,
+       waitSeconds: 14,
+       baseUrl: el.getAttribute("data-baseurl"),
+       urlArgs: el.getAttribute("data-debug") == "1" ? "v=" + el.getAttribute("data-timestamp") : "",
+       shim: {
+          "underscore": {
+             exports: '_'
+          },
+          "backbone": {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone'
+          }
+       },
+       paths: {
+          "jquery":       "javascripts/core/jquery",
+          "underscore":   "javascripts/core/underscore.1.5.2",
+          "backbone":     "javascripts/core/backbone.1.1.0",
+          "i18n":         "javascripts/core/i18n._t",
+          "pages/auth/models/user.json": "empty:"
+       },
+       callback: function() {
+         require(["pages/auth/routes"]); // bootup coursera
+       },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem("locale") : '') || el.getAttribute("data-locale")
+         }
+       }
+     });
+  })(document.getElementById("_require"));
+}</script><script type="text/javascript">define("pages/auth/models/user.json", ['jquery'], function($){
+  var user = $("<div/>").html("undefined").text();
+  return user && user !== "undefined" ? JSON.parse(user) : null;
+});</script></body></html>
