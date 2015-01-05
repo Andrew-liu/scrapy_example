@@ -55,8 +55,8 @@ class ZhihuSipder(CrawlSpider) :
                             headers = self.headers,
                             formdata = {
                             '_xsrf': xsrf,
-                            'email': '1095511864@qq.com',
-                            'password': 'HUAZANG.55789260'
+                            'email': '123456',
+                            'password': '123456'
                             },
                             callback = self.after_login,
                             dont_filter = True
