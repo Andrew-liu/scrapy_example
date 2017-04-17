@@ -1,21 +1,21 @@
-#Overview
+# Overview
 
 **This repository store some example to learn scrapy better, which include tutorial, zhihu, cnbeta, xiaobaihe, douban, coursera**
 
-#Requirements
+# Requirements
 
 - Python: 2.7.8
 - Scrapy: 0.24
 - System: Mac OS X 10.10.1
 
 
-#Install 
+# Install 
 
 ```
 $ git clone git@github.com:Andrew-liu/scrapy_example.git
 ```
 
-#Usage
+# Usage
 
 You can use the six scrapy simply, just to do below:
 
@@ -32,7 +32,7 @@ $ scrapy crwal zhihu -o filename.json
 
 
 
-#More Detail
+# More Detail
 
 - [Python爬虫(一)](http://www.jianshu.com/p/f76bd2164856)
 - [Python爬虫(二)](http://www.jianshu.com/p/c3dbf8294c33)
@@ -43,7 +43,7 @@ $ scrapy crwal zhihu -o filename.json
 - [Python爬虫(七)](http://www.jianshu.com/p/b7f41df6202d)
 
 
-#License
+# License
 
 Copyright (c) 2014 [Andrew Liu](http://andrewliu.tk)
 
